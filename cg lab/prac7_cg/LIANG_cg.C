@@ -33,15 +33,13 @@ void main()
 	q[2]=y1-ymin;
 	q[3]=ymax-y1;
 
-	for(i=0;i<4;i++)
-	{	
-		clrscr();
-		cleardevice();
-		printf("before clipping:");
-		line(x1,y1,x2,y2);
-		rectangle(xmin,ymin,xmax,ymax);
-	}
+	cleardevice();
+	printf("before clipping:");
+	line(x1,y1,x2,y2);
+	rectangle(xmin,ymin,xmax,ymax);
 	getch();
+	
+	
 	for(i=0;i<4;i++)
 	{
 		if(p[i]==0)
