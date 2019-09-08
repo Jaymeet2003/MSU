@@ -1,2 +1,2 @@
 # MSU
- All T.Y D.C.E practiclas programs
+ All T.Y D.C.E practicals programs
