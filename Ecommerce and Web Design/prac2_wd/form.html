@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Login</legend>
+            please enter your username <input type="text"/><br>
+            please enter your password <input type="password"/><br>
+        </fieldset>
+        <fieldset>
+            <legend>Choice</legend>
+            favourite color <input type="text" value="green"/><br>
+            favourite fruit <select name="favfruit">
+                <option value="mango">Mango</option>
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+            </select><br>
+            i live in a <input type="radio" name="live in" checked>house
+            <input type="radio" name="live in">Flate <br>
+            my upload file is <input type="file" name="choose file" value="choose file"/>
+        </fieldset>
+        <fieldset>
+            <legend>leaving</legend>
+            leave a message <br>
+            <textarea cols="30" rows="6"></textarea>
+        </fieldset>
+        <input type="submit" value="Go">
+        <input type="reset" value="Start Again">
+    </form>
+    
+</body>
+</html>
