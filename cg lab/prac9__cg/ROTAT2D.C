@@ -23,7 +23,7 @@ void main()
 	printf("Enter angle:");
 	scanf("%d", &t);
 
-	p = a2;
+	p = x2;
 	q = y2;
 
 	t = (t * 3.14) / 180;
