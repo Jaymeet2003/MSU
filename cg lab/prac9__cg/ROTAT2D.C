@@ -31,9 +31,9 @@ void main()
 	a1 = p + (x1 - p) * cos(t) - (y1 - q)*sin(t);
 	b1 = q + (x1 - p) * sin(t) + (y1 - q) * cos(t);
 	a2 = p + (x2 - p) * cos(t) - (y2 - q) * sin(t);
-	b2 = q + (x2 - p) * sin(t) - (y2 - q) * cos(t);
+	b2 = q + (x2 - p) * sin(t) + (y2 - q) * cos(t);
 	a3 = p + (x3 - p) * cos(t) - (y3 - q) * sin(t);
-	b3 = q + (x3 - p) * sin(t) - (y3 - q) * cos(t);
+	b3 = q + (x3 - p) * sin(t) + (y3 - q) * cos(t);
 
 	line(a1, b1, a2, b2);
 	line(a2, b2, a3, b3);
