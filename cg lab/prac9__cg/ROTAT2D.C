@@ -28,7 +28,7 @@ void main()
 
 	t = (t * 3.14) / 180;
 
-	a1 = p + (x1 - p) * cos(t) - (y1 - q)*sin(t);
+	a1 = p + (x1 - p) * cos(t) - (y1 - q) * sin(t);
 	b1 = q + (x1 - p) * sin(t) + (y1 - q) * cos(t);
 	a2 = p + (x2 - p) * cos(t) - (y2 - q) * sin(t);
 	b2 = q + (x2 - p) * sin(t) + (y2 - q) * cos(t);
