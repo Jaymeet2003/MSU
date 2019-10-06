@@ -1,0 +1,28 @@
+<html>
+   <head>
+       <title>Sorting</title>
+   </head>
+    <body>
+        <script type="text/javascript">
+         var ar=new Array(1,3,2,4,6,5,7,8,9,10);
+         for (var i=0;i<=9;i++)
+         {
+            for(var j=i+1;j<=9;j++)
+            {
+                if (ar[i]>ar[j])
+                {
+                    var c;
+                    c=ar[i];
+                    ar[i]=ar[j];
+                    ar[j]=c;
+                } 
+            }
+                 
+         }
+         for(i=0;i<=9;i++)
+         {
+            document.write(ar[i]+"&nbsp;");
+         }
+        </script>
+    </body>
+</html>

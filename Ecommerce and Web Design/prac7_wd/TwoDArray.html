@@ -1,0 +1,21 @@
+<html>
+   <head>
+       <title>2-D array</title>
+   </head>
+   <body>
+    <script type="text/javascript">
+        a=new Array();
+        for(var i=0;i<5;i++)
+        {
+            a[i]=new Array();
+        } 
+        for(var i=0;i<5;i++)
+        {
+            for(var j=i;j<5;j++){
+                a[i][j]=i+j;
+                document.write(a[i][j]+"<br/>");
+            }
+        }
+    </script>
+</body>
+</html>
